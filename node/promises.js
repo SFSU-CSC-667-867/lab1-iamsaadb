@@ -5,6 +5,7 @@ const promiseExample = () => {
 };
 
 promiseExample()
-  .then((res) => console.log(res));
-
+  .then((res) => res + 'You')
+  .then((res) => console.log('I am sorry'))
+  .catch((e) => console.log('JS IS A MESS ANYWAYS'));
 console.log('hi');
